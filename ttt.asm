@@ -546,7 +546,7 @@ main:
 
 
 section .data
-    wndw_title db "Gay arch user", 0x0
+    wndw_title db "Tic Tac Asm", 0x0
     x_wins_msg db "X wins!", 0x0
     o_wins_msg db "O wins!", 0x0
     draw_msg db "Draw! ;-;", 0x0
