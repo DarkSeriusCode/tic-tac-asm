@@ -417,6 +417,7 @@ drawCellValue:
     cmp rax, 1
     jne .drawX
     call drawO
+    jmp .done
     .drawX:
     call drawX
 
